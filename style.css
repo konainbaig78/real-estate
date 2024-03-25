@@ -1,0 +1,174 @@
+.bor-rad {
+  border-radius: 70px;
+  background: #fafafa;
+  padding: 8px 36px;
+  align-items: center !important;
+  margin-top: 10px;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.b-rad {
+  border-radius: 40px;
+  background: #fefeff;
+}
+.fs-a {
+  font-size: 16px;
+  line-height: 19.2px;
+}
+.text-clr {
+  color: #1f1f1f;
+}
+.btn-a {
+  width: (158px);
+  height: (60px);
+  padding: 15px 35px 15px 35px;
+  gap: 10px;
+  border-radius: 40px;
+  border: 1px;
+  background: #fefeff;
+  border: 1px solid #bebebe;
+}
+.sec-a {
+  background: linear-gradient(90deg, #c1dee8 0%, #fbd9b9 100%);
+  border-radius: 15px;
+  margin: 30px 15px 0 15px;
+  padding: 0 15px;
+}
+.t {
+  padding: 73px 0 34px 34px;
+}
+.h5-a {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24.2px;
+  text-align: left;
+}
+.h1-a {
+  font-size: 53px;
+  font-weight: 600;
+  line-height: 70.4px;
+  text-align: left;
+  margin: 22px 0;
+}
+.in {
+  border-radius: 40px;
+  width: 277px;
+  height: 51px;
+}
+.mb-8 {
+  margin-bottom: 27px;
+}
+.in::placeholder {
+  padding-left: 12px;
+  font-size: 15px;
+}
+.btn-b {
+  background: #000;
+  color: white;
+  padding: 12px;
+  margin-left: -47px;
+  width: 130px;
+  height: 51px;
+  font-size: 15px;
+}
+.t-a {
+  margin-right: 20px;
+}
+.ig-1 {
+  width: 785px;
+  height: 667px;
+}
+.t-b {
+  margin-top: -70px;
+}
+.sec-b {
+  margin: 50px;
+}
+.p-b {
+  font-weight: 500;
+  line-height: 19.2px;
+  font-size: 16px;
+}
+.h1-b {
+  font-weight: 600;
+}
+.icon {
+  width: 75px;
+  height: 75px;
+  display: flex;
+}
+
+.h5-b {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.6px;
+  text-align: left;
+}
+.p-c {
+  font-weight: 400;
+  line-height: 19.2px;
+  font-size: small;
+}
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .hidden {
+    overflow: hidden;
+  }
+  .t {
+    display: flex;
+    flex-direction: column;
+  }
+  .t-c {
+    display: flex;
+  }
+  .ig-1 {
+    width: 385px;
+  }
+  .t-b {
+    margin-left: -38px;
+  }
+  .card {
+    margin-top: 68px;
+  }
+  .icon{
+    
+    height: 45px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hidden {
+    overflow: hidden;
+  }
+  .t {
+    display: flex;
+    flex-direction: column;
+  }
+  .t-c {
+    display: flex;
+  }
+  .ig-1 {
+    width: 432px;
+  }
+  .t-b {
+    margin-left: -38px;
+  }
+  .card {
+    margin-top: 68px;
+  }
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .hidden {
+    overflow: hidden;
+  }
+
+  .t-c {
+    display: flex;
+  }
+}
