@@ -120,12 +120,20 @@
   .t {
     display: flex;
     flex-direction: column;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
   .t-c {
-    display: flex;
+  display: flex;
+  flex-direction: column;
+  }
+  .btn-b{
+    margin: 0 !important;
   }
   .ig-1 {
-    width: 385px;
+    width: 306px !important;
+    height: 306px;
+    margin-top: 80px;
   }
   .t-b {
     margin-left: -38px;
